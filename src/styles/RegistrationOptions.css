@@ -141,11 +141,11 @@
 }
 
 .registrationNavButton {
-    padding: 12px 18px;
+    padding: 14px 20px;
     border: 2px solid transparent;
     border-radius: 10px;
     font-family: inherit;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
     cursor: pointer;
     transition: background-color 0.2s ease, border-color 0.2s ease,
@@ -156,24 +156,26 @@
     transform: translateY(-2px);
 }
 
-.registrationNavButton.primary {
+.registrationNavButton.next {
+    padding-right: 24px;
     background-color: #ffca05;
     border-color: #ffca05;
     color: #242424;
 }
 
-.registrationNavButton.primary:hover:not(:disabled) {
-    background-color: #f0bd00;
-    border-color: #f0bd00;
+.registrationNavButton.next:hover:not(:disabled) {
+    background-color: #e5b400;
+    border-color: #e5b400;
 }
 
-.registrationNavButton.secondary {
+.registrationNavButton.previous {
     background-color: #ffffff;
     border-color: #deded8;
     color: #242424;
 }
 
-.registrationNavButton.secondary:hover:not(:disabled) {
+.registrationNavButton.previous:hover:not(:disabled) {
+    background-color: #f8f8f5;
     border-color: #ffca05;
 }
 

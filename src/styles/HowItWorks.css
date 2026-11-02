@@ -101,6 +101,13 @@
     margin: 0;
 }
 
+.walkthroughButtons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 30px;
+}
+
 .walkthroughNext {
     padding: 14px 24px;
     background-color: #ffca05;

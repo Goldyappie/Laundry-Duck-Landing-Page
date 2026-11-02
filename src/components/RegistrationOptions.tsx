@@ -136,18 +136,18 @@ function RegistrationOptions() {
           <div className="registrationStepButtons">
             <button
               type="button"
-              className="registrationNavButton secondary"
+              className="registrationNavButton previous"
               onClick={() =>
                 setCurrentStep((previous) => Math.max(0, previous - 1))
               }
               disabled={currentStep === 0}
             >
-              Previous Step
+              ← Previous Step
             </button>
 
             <button
               type="button"
-              className="registrationNavButton primary"
+              className="registrationNavButton next"
               onClick={handleNextStep}
             >
               {isLastStep ? "Start Over ↻" : "Next Step →"}

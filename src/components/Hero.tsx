@@ -1,5 +1,5 @@
 
-import driverImage from "../assets/Driver.png"
+import driverImage from "../assets/Driver.gif"
 import "../styles/Hero.css"
 
 function Hero() {

@@ -243,6 +243,10 @@
     color: #ffffff;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @media (max-width: 800px) {
     .navbar {
         width: calc(100% - 32px);
