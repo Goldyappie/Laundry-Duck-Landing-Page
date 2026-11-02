@@ -11,68 +11,69 @@ function FAQs() {
         </p>
       </div>
 
-      <div className="faqsGrid">
-        <article className="faqCard">
-          <h3 className="faqQuestion">
-            What is LaundryDuck?
-          </h3>
-          <p className="faqAnswer">
-            LaundryDuck is a laundry service that makes it easier to
-            get your clothes washed, dried, and folded.
-          </p>
-        </article>
+    <div className="faqsGrid">
+      <article className="faqCard">
+        <h3 className="faqQuestion">
+          Can I choose which laundry shop will handle my clothes?
+        </h3>
+        <p className="faqAnswer">
+          Yes! You can browse available laundry shops, compare their
+          services and prices, and choose the shop that best fits your needs.
+        </p>
+      </article>
 
-        <article className="faqCard">
-          <h3 className="faqQuestion">
-            How do I book a laundry service?
-          </h3>
-          <p className="faqAnswer">
-            Create an account, choose your preferred service, and
-            submit a booking through our platform.
-          </p>
-        </article>
+      <article className="faqCard">
+        <h3 className="faqQuestion">
+          Can I request pickup and delivery, or pick up my laundry myself?
+        </h3>
+        <p className="faqAnswer">
+          LaundryDuck supports convenient laundry options, including
+          pickup and delivery and self-pickup, depending on the services
+          offered by your chosen shop.
+        </p>
+      </article>
 
-        <article className="faqCard">
-          <h3 className="faqQuestion">
-            Do you offer pickup and delivery?
-          </h3>
-          <p className="faqAnswer">
-            Yes, LaundryDuck is designed to make laundry more
-            convenient with pickup and delivery options.
-          </p>
-        </article>
+      <article className="faqCard">
+        <h3 className="faqQuestion">
+          How will I know when my laundry is ready?
+        </h3>
+        <p className="faqAnswer">
+          You can check your booking status through your LaundryDuck
+          account to keep track of your laundry order.
+        </p>
+      </article>
 
-        <article className="faqCard">
-          <h3 className="faqQuestion">
-            How much does the service cost?
-          </h3>
-          <p className="faqAnswer">
-            The cost depends on the service you choose and the
-            amount of laundry. You can check the available rates
-            when making a booking.
-          </p>
-        </article>
+      <article className="faqCard">
+        <h3 className="faqQuestion">
+          What happens if some of my clothes are missing or damaged?
+        </h3>
+        <p className="faqAnswer">
+          You can contact the laundry shop or LaundryDuck support to
+          report the issue and request assistance.
+        </p>
+      </article>
 
-        <article className="faqCard">
-          <h3 className="faqQuestion">
-            How can I track my booking?
-          </h3>
-          <p className="faqAnswer">
-            You can check your booking status through your account
-            to stay updated on your laundry order.
-          </p>
-        </article>
+      <article className="faqCard">
+        <h3 className="faqQuestion">
+          Can I cancel or reschedule my laundry booking?
+        </h3>
+        <p className="faqAnswer">
+          Cancellation and rescheduling options may depend on your
+          booking status and the laundry shop's policies.
+        </p>
+      </article>
 
-        <article className="faqCard">
-          <h3 className="faqQuestion">
-            How do I contact customer support?
-          </h3>
-          <p className="faqAnswer">
-            You can reach out to the LaundryDuck team through the
-            contact information provided on our platform.
-          </p>
-        </article>
-      </div>
+      <article className="faqCard">
+        <h3 className="faqQuestion">
+          Are the laundry prices different for each shop?
+        </h3>
+        <p className="faqAnswer">
+          Yes. Each laundry shop may have different service rates.
+          You can check the available prices before choosing a shop
+          and placing your booking.
+        </p>
+      </article>
+    </div>
     </section>
   )
 }

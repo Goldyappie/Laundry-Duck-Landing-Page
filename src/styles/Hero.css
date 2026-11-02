@@ -49,6 +49,7 @@
     font-weight: 700;
     font-family: inherit;
     cursor: pointer;
+    text-decoration: none;
     transition: background 0.25s ease, color 0.25s ease,
         transform 0.25s ease;
 }
@@ -75,69 +76,55 @@
     object-fit: contain;
 }
 
-.heroButton {
-    display: inline-block;
-    padding: 15px 24px;
-    background: #242424;
-    color: #ffffff;
-    border: 2px solid #242424;
-    border-radius: 10px;
-    font-size: 15px;
-    font-weight: 700;
-    font-family: inherit;
-    cursor: pointer;
-    text-decoration: none;
-    transition: background 0.25s ease, color 0.25s ease,
-        transform 0.25s ease;
-}
-
 @media (max-width: 800px) {
     .hero {
+        position: relative;
         min-height: auto;
         padding: 65px 20px;
-        flex-direction: column;
-        text-align: center;
-        gap: 35px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        gap: 20px;
     }
 
     .heroContent {
-        width: 100%;
+        flex: 0 0 64%;
+        max-width: 45%;
+        position: relative;
+        z-index: 2;
     }
 
     .heroContent h1 {
-        font-size: clamp(36px, 7vw, 52px);
-        letter-spacing: -1.5px;
-    }
-
-    .heroDescription {
-        margin: 24px auto 30px;
-    }
-
-    .heroImage {
-        width: 100%;
-    }
-
-    .heroImage img {
-        max-width: 500px;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero {
-        padding: 40px 8px;
-        gap: 28px;
-    }
-
-    .heroContent h1 {
-        font-size: 36px;
+        font-size: clamp(22px, 4.5vw, 42px);
         letter-spacing: -1px;
     }
 
     .heroDescription {
-        font-size: 14px;
+        margin: 16px 0 22px;
+        font-size: 13px;
+        line-height: 1.6;
     }
 
     .heroButton {
-        padding: 13px 20px;
+        padding: 10px 12px;
+        font-size: 11px;
+    }
+
+    .heroImage {
+        position: absolute;
+        width: clamp(190px, 55%, 360px);
+        right: 0;
+        top: 42%;
+        transform: translateY(-50%);
+        z-index: 1;
+        pointer-events: none;
+    }
+
+    .heroImage img {
+        display: block;
+        width: 100%;
+        max-width: none;
+        height: auto;
     }
 }
