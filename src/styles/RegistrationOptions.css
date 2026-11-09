@@ -1,7 +1,10 @@
+* {
+    font-family: "Baloo 2", sans-serif;
+}
+
 .registrationOptions {
     padding: 100px 8%;
     background-color: #f8f8f5;
-    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .registrationOptionsHeader {

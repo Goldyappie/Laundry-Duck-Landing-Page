@@ -2,7 +2,6 @@
     width: min(1160px, calc(100% - 32px));
     margin: 0 auto;
     padding: 70px 35px;
-    font-family: "Plus Jakarta Sans", sans-serif;
     box-sizing: border-box;
 }
 
